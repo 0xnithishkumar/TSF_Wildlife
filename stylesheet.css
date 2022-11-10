@@ -10,6 +10,24 @@
   margin-right: 15px;
 }
 
+div button {
+  color: black;
+  background-color: red;
+  border-radius: 2px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid;
+  transition-duration: 0.5s;
+  margin-bottom: 8px;
+}
+
+div button:hover {
+  transition-duration: 0.25;
+  background-color: black;
+  border-color: red;
+  color: red;
+}
+
 .text {
   position: absolute;
   top: 0%;
@@ -17,6 +35,7 @@
   font-size: 3.5vw;
   font-weight:bolder;
 }
+
 
 
 article p {
@@ -38,10 +57,11 @@ body {
 h3 {
   font-size: 3vw;
   text-align: center;
+  color: brown;
 }
 
 footer {
-  margin-top: -44px;
+  margin-top: -45px;
   color: rgba(255, 255, 255, 0.8);
   width: 100%;
   box-sizing: border-box;
@@ -54,6 +74,7 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 .tsf {
@@ -62,5 +83,14 @@ footer a {
   margin-bottom: -10px;
 }
 
+
+footer button {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  font-size: medium;
+  cursor: pointer;
+  margin: -1px;
+}
 
 
