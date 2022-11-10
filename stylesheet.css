@@ -1,0 +1,99 @@
+.container {
+  border-radius: 10px;
+  position: relative;
+}
+
+.button {
+  position: sticky;
+  bottom: 15px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+div button {
+  color: black;
+  background-color: red;
+  border-radius: 4px;
+  padding: 16px 30px;
+  cursor: pointer;
+  border: 3px solid;
+  transition-duration: 0.5s;
+  margin-bottom: 3px;
+  font-size: large;
+  font-weight: bold;
+}
+
+div button:hover {
+  transition-duration: 0.25;
+  background-color: black;
+  border-color: red;
+  color: red;
+}
+
+.text {
+  position: absolute;
+  top: 0%;
+  left: 3%;
+  font-size: 3.5vw;
+  font-weight:bolder;
+}
+
+
+
+article p {
+  text-align: center;
+  font-size: 2vw;
+}
+
+
+img {
+  margin:0; 
+  display:block;
+}
+
+body {
+  background-color: rgba(0, 157, 255, 0.133);
+  margin: 0px;
+}
+
+h3 {
+  font-size: 3vw;
+  text-align: center;
+  color: brown;
+}
+
+footer {
+  margin-top: -63px;
+  color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  box-sizing: border-box;
+  background-color: black;
+  text-align: center;
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.tsf {
+  color: brown;
+  font-size: 4.5vw;
+  margin-bottom: -10px;
+}
+
+
+footer button {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  font-size: medium;
+  cursor: pointer;
+  margin: -1px;
+}
+
+
